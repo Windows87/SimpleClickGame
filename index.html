@@ -81,13 +81,13 @@
 
 					switch (n){
 						case 0:
-							this.winPerSecond++;
+							this.winPerSecond *= 1.4;
 							this.price[n] *= 1.2;
 							document.getElementById('buy').style['display'] = "inline";
 							document.getElementById('buyclick').style['display'] = "inline";
 							break;
 						case 1:
-							this.click++;
+							this.click *= 1.4;
 							this.price[n] *= 1.8;
 							document.getElementById('buy').style['display'] = "inline";
 							document.getElementById('buyclick').style['display'] = "inline";
